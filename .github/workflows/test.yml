@@ -8,7 +8,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "The current saved env is $PUBLICURL or ${{ secrets.PUBLICURL }} in the workspace. ${{secrets.TESTE.URL2}} is the other one"
+      - run: echo "The current saved env is $PUBLICURL or ${{ secrets.PUBLICURL }} in the workspace. ${{ secrets.URL2 }} is the other one"
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
