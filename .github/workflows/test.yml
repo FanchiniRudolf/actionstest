@@ -3,7 +3,7 @@ on: [push]
 
 env:
   PUBLICURL: ${{ secrets.PUBLICURL }}
-  secret2: ${{ TESTE.URL2 }}
+  secret2: ${{ secrets.URL2 }}
 
 jobs:
   Explore-GitHub-Actions:
